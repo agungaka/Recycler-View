@@ -5,11 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".bluePrint">
 
-    <android.support.v7.widget.RecyclerView
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/recView">
-    </android.support.v7.widget.RecyclerView>
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:id="@+id/head"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Isi"
+        android:id="@+id/isi"/>
+
 </LinearLayout>
